@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card {
+  width: 300px;
+  height: auto;
+  background-color: #DFDFDE;
+  border-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body .card .card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55%;
+  border-radius: 15px 15px 0px 0px;
+}
+body .card .card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+body .card .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #2B2B2B;
+}
+body .card .card-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 6px;
+  font-weight: 600;
+  overflow: hidden;
+  color: #7F8487;
+}
+body .card .card-link {
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .card .card-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #7F8487;
+}
+body .card .card-link .more-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 2px;
+  background-color: #7F8487;
+  transition: 1s;
+  margin: auto;
+}
+body .card .card-link:hover a {
+  color: #2B2B2B;
+}
+body .card .card-link:hover .more-bottom {
+  background-color: #2B2B2B;
+  transition: 0.8s;
+  transform: scaleX(6);
+}
